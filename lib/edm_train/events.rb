@@ -68,7 +68,7 @@ module EdmTrain
     # Returns an array of artists performing at the event
     # @return [Array<Artist>]
     def artists
-      @artists ? raw_event['artistList'].map { |artist| EdmTrain::Artist.new(artist) } : []
+      @artists || []
     end
 
     # Returns the name of the event
@@ -110,7 +110,7 @@ module EdmTrain
     # Returns true if the event is a livestream
     # @return [Boolean]
     def live_stream?
-      @raw_event['liveStreamInd']
+      @live_stream
     end
     
     # Returns an array of artist names performing at the event
