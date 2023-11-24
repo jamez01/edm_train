@@ -1,0 +1,6 @@
+lib/edm_train.rb ac2c50424d35c7da47f8d526b1d6edb07226ba00
+lib/edm_train/venue.rb b40263cb4fec3c43ee8e6edbbb8959bcec8e89bc
+lib/edm_train/artist.rb 64bf4084a95fb36eb40fda01559be3920230376b
+lib/edm_train/client.rb d8ba1c22a2cdd2dc30d31b14a8df3da13da59dd3
+lib/edm_train/events.rb 21db350bab995dd3b1162914b2a8476ac5e9dd9c
+lib/edm_train/locations.rb 7367f479dfa285e85ee81b01fd0661f19c5dddb8
