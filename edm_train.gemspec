@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'edm_train'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = 'Pulls events from EdmTrain.com'
   s.description = 'Pulls events from EdmTrain.com'
   s.authors     = ['James Paterni']

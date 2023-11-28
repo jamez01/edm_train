@@ -110,7 +110,7 @@ module EdmTrain
     # Returns true if the event is a livestream
     # @return [Boolean]
     def live_stream?
-      @live_stream
+      @live_stream || venue.name.match?(/live ?stream/i)
     end
     
     # Returns an array of artist names performing at the event
