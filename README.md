@@ -3,12 +3,12 @@ Edm_Train is a simpel ruby gem to interface with the edmtrain.com API.
 
 # Prerequisites 
 * edm_train was designed with Ruby 3.2.1 and has not been tested on earlier versions, however, it is a simple library and will likely work on most ruby versions.
-* An API key from edmtrain.com
+* An API key from [edmtrain.com](https://edmtrain.com/developer-api)
 
 # Install
 ### Gemfile
 ```ruby
-gem 'edm_train', '~> 0.0.1'
+gem 'edm_train', '~> 0.0.2'
 ```
 
 ### Rubygems
